@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IronSecurity</string>
+    <string name="login">LOGIN</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="salle_manger">Salle à manger</string>
+    <string name="todo">TODO</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="wc">WC</string>
+    <string name="sam">SAM</string>
+    <string name="vestibule">Vestibule</string>
+    <string name="chambre">Chambre</string>
+    <string name="suite_parentale">Suite Parentale</string>
+    <string name="salon">Salon</string>
+    <string name="hall_nord">Hall nord</string>
+
+</resources>

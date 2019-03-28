@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <RelativeLayout
+        android:layout_width="404dp"
+        android:layout_height="724dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="189dp"
+            android:layout_height="126dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="101dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/logoprojetalpha2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="101dp" />
+
+        <Button
+            android:id="@+id/salon"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/salleamanger"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:text="@string/salon" />
+
+        <Button
+            android:id="@+id/chambre"
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:layout_alignBottom="@+id/hallnord"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginEnd="74dp"
+            android:layout_marginRight="74dp"
+            android:layout_toStartOf="@+id/hallnord"
+            android:layout_toLeftOf="@+id/hallnord"
+            android:text="@string/chambre" />
+
+        <Button
+            android:id="@+id/suiteparent"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/vestibule"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_toEndOf="@+id/vestibule"
+            android:layout_toRightOf="@+id/vestibule"
+            android:text="@string/suite_parentale" />
+
+        <Button
+            android:id="@+id/vestibule"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="285dp"
+            android:text="@string/vestibule" />
+
+        <Button
+            android:id="@+id/hallnord"
+            android:layout_width="113dp"
+            android:layout_height="74dp"
+            android:layout_below="@+id/cuisine"
+            android:layout_alignStart="@+id/suiteparent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-276dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginRight="38dp"
+            android:text="@string/hall_nord" />
+
+
+        <Button
+            android:id="@+id/salleamanger"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/suiteparent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="254dp"
+            android:layout_marginLeft="254dp"
+            android:layout_marginTop="203dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="@string/sam"
+            android:text="@string/salle_manger" />
+
+        <Button
+            android:id="@+id/wc"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:layout_alignTop="@+id/cuisine"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_toEndOf="@+id/cuisine"
+            android:layout_toRightOf="@+id/cuisine"
+            android:text="@string/wc" />
+
+        <Button
+            android:id="@+id/cuisine"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginBottom="287dp"
+            android:text="@string/cuisine" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
