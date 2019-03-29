@@ -41,7 +41,7 @@ public class Activity2 extends AppCompatActivity {
 
             public void onClick(DialogInterface dialog, int which) {
 
-                Intent i = new Intent(Activity2.this, Activity3.class);
+                Intent i = new Intent(Activity2.this, MainActivity.class);
                 startActivity(i);
             }
 
