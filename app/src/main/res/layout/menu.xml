@@ -3,13 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Menu">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="215dp"
-        android:layout_height="158dp"
+        android:layout_width="167dp"
+        android:layout_height="123dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -28,60 +30,99 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="395dp"
-        android:layout_height="643dp"
+        android:layout_height="718dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="6dp">
+
+        <ImageView
+            android:id="@+id/Support"
+            android:layout_width="37dp"
+            android:layout_height="39dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="-31dp"
+            android:layout_toStartOf="@+id/Option"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/ic_action_support" />
+
+        <ImageView
+            android:id="@+id/Option"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="95dp"
+            app:srcCompat="@drawable/ic_action_name" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/button11"
-            android:layout_alignTop="@+id/button9"
-            android:layout_marginStart="141dp"
-            android:layout_marginTop="3dp"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginEnd="241dp"
+            android:layout_marginRight="241dp"
+            android:layout_marginBottom="233dp"
             android:text="Statistiques" />
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginBottom="194dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="103dp"
+            android:layout_marginBottom="340dp"
             android:text="Mozaique Caméras" />
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="50dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="292dp"
+            android:layout_marginEnd="240dp"
+            android:layout_marginRight="240dp"
             android:text="Pilotage Caméras" />
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="100dp"
             android:text="Scénario Domotique" />
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="187dp"
             android:text="Pilotage Maison" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

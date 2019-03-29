@@ -116,8 +116,8 @@
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/switch9"
             android:layout_alignTop="@+id/switch1"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="47dp"
             android:text="@string/store_2" />
 
         <Switch
@@ -126,31 +126,9 @@
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/switch9"
             android:layout_alignTop="@+id/switch1"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="67dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="93dp"
             android:text="@string/clim" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="44dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="94dp"
-            android:layout_marginRight="94dp"
-            android:layout_marginBottom="59dp"
-            android:text="@string/cam_ra_2" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="45dp"
-            android:layout_below="@+id/switch11"
-            android:layout_alignEnd="@+id/switch9"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="-1dp"
-            android:text="@string/cam_ra_1" />
 
     </RelativeLayout>
 
