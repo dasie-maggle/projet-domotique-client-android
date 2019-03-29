@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">IronSecurity</string>
+    <string name="login">LOGIN</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="salle_manger">Salle à manger</string>
+    <string name="todo">TODO</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="wc">WC</string>
+    <string name="sam">SAM</string>
+    <string name="vestibule">Vestibule</string>
+    <string name="chambre">Chambre</string>
+    <string name="suite_parentale">Suite Parentale</string>
+    <string name="salon">Salon</string>
+    <string name="hall_nord">Hall nord</string>
+    <string name="ext_rieur">Extérieur</string>
+    <string name="premier_etage">Premier Etage</string>
+    <string name="rez_de_chaus_e">Rez De Chausée</string>
+    <string name="garage">Garage</string>
+    <string name="lumi_re_5">Lumière 5</string>
+    <string name="lumi_re_7">Lumière 7</string>
+    <string name="lumi_re_3">Lumière 3</string>
+    <string name="lumi_re_4">Lumière 4</string>
+    <string name="lumi_re_6">Lumière 6</string>
+    <string name="lumi_re_2">Lumière 2</string>
+    <string name="store_1">Store 1</string>
+    <string name="store_2">Store 2</string>
+    <string name="clim">Clim</string>
+    <string name="cam_ra_1">Caméra 1</string>
+    <string name="cam_ra_2">Caméra 2</string>
+    <string name="lumi_re_1">Lumière 1</string>
+
+</resources>

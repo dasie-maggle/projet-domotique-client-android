@@ -8,8 +8,8 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
-        android:layout_width="370dp"
-        android:layout_height="377dp"
+        android:layout_width="392dp"
+        android:layout_height="384dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="187dp">
 
@@ -20,7 +20,7 @@
             android:layout_alignStart="@+id/switch6"
             android:layout_alignParentTop="true"
             android:layout_marginTop="214dp"
-            android:text="Lumière 5" />
+            android:text="@string/lumi_re_5" />
 
         <Switch
             android:id="@+id/switch8"
@@ -29,7 +29,7 @@
             android:layout_alignStart="@+id/switch1"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="59dp"
-            android:text="Lumière 7" />
+            android:text="@string/lumi_re_7" />
 
         <Switch
             android:id="@+id/switch4"
@@ -41,7 +41,7 @@
             android:layout_marginStart="33dp"
             android:layout_marginLeft="33dp"
             android:layout_marginTop="133dp"
-            android:text="Lumière 3" />
+            android:text="@string/lumi_re_3" />
 
         <Switch
             android:id="@+id/switch5"
@@ -51,7 +51,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="0dp"
             android:layout_marginTop="175dp"
-            android:text="Lumière 4" />
+            android:text="@string/lumi_re_4" />
 
         <Switch
             android:id="@+id/switch6"
@@ -60,7 +60,7 @@
             android:layout_alignStart="@+id/switch1"
             android:layout_alignParentTop="true"
             android:layout_marginTop="250dp"
-            android:text="Lumière 6" />
+            android:text="@string/lumi_re_6" />
 
         <Switch
             android:id="@+id/switch1"
@@ -69,8 +69,7 @@
             android:layout_alignStart="@+id/switch4"
             android:layout_alignParentTop="true"
             android:layout_marginTop="47dp"
-            android:editable="true"
-            android:text="Lumière 1" />
+            android:text="@string/lumi_re_1" />
 
         <Switch
             android:id="@+id/switch3"
@@ -79,7 +78,7 @@
             android:layout_below="@+id/switch1"
             android:layout_alignStart="@+id/switch1"
             android:layout_marginTop="15dp"
-            android:text="Lumière 2" />
+            android:text="@string/lumi_re_2" />
 
         <Switch
             android:id="@+id/switch9"
@@ -91,7 +90,7 @@
             android:layout_marginTop="1dp"
             android:layout_marginEnd="35dp"
             android:layout_marginRight="35dp"
-            android:text="Store 1" />
+            android:text="@string/store_1" />
 
         <Switch
             android:id="@+id/switch10"
@@ -100,7 +99,7 @@
             android:layout_alignStart="@+id/switch9"
             android:layout_alignTop="@+id/switch1"
             android:layout_marginTop="50dp"
-            android:text="Store 2" />
+            android:text="@string/store_2" />
 
         <Switch
             android:id="@+id/switch11"
@@ -109,7 +108,7 @@
             android:layout_alignStart="@+id/switch9"
             android:layout_alignTop="@+id/switch1"
             android:layout_marginTop="90dp"
-            android:text="Clim" />
+            android:text="@string/clim" />
 
         <Button
             android:id="@+id/button"
@@ -121,7 +120,7 @@
             android:layout_marginEnd="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginBottom="146dp"
-            android:text="Caméra 1" />
+            android:text="@string/cam_ra_1" />
 
         <Button
             android:id="@+id/button2"
@@ -131,16 +130,16 @@
             android:layout_alignEnd="@+id/switch9"
             android:layout_marginTop="-1dp"
             android:layout_marginEnd="-6dp"
-            android:text="Caméra 2" />
+            android:text="@string/cam_ra_2" />
 
     </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/salon"
-        android:layout_width="368dp"
-        android:layout_height="171dp"
-        android:orientation="vertical"
+        android:layout_width="396dp"
+        android:layout_height="175dp"
         android:background="@drawable/salon"
+        android:orientation="vertical"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp"></LinearLayout>
 
