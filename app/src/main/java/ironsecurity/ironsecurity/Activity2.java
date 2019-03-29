@@ -31,28 +31,4 @@ public class Activity2 extends AppCompatActivity {
         });
 
     }
-    @Override
-    public void onBackPressed() {
-        // TODO Auto-generated method stub
-        AlertDialog.Builder confirm = new AlertDialog.Builder(this);
-        confirm.setMessage("Logout?");
-        confirm.setTitle("Confirm");
-        confirm.setPositiveButton("Yes", new DialogInterface.OnClickListener(){
-
-            public void onClick(DialogInterface dialog, int which) {
-                Activity2.this.finish();
-            }
-
-        });
-        confirm.setNegativeButton("No", new DialogInterface.OnClickListener() {
-
-            public void onClick(DialogInterface dialog, int which) {
-                // TODO Auto-generated method stub
-
-            }
-        });
-
-        confirm.show();
-
-    }
 }

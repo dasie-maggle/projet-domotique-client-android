@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements Runnable{
         User user = dbHelper.queryUser(username, password);
         if(user != null)
         {
-            Intent i = new Intent(this,Activity2.class); // here the nextpage to be loaded is specified
+            Intent i = new Intent(this, Menu.class); // here the nextpage to be loaded is specified
             startActivity(i);
         }
         else
