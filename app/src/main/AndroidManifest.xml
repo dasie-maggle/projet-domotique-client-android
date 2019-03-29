@@ -9,10 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Menu"></activity>
-        <activity android:name=".Activity2"></activity>
-        <activity android:name=".Activity3"></activity>
-        <activity android:name=".Salon"></activity>
+        <activity android:name=".PremierEtage"></activity>
+        <activity android:name=".Exterieur" />
+        <activity android:name=".Garage" />
+        <activity android:name=".Stat" />
+        <activity android:name=".Mozaique" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Salon" />
+        <activity android:name=".Camera" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/SteelSecurity">
@@ -22,7 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
