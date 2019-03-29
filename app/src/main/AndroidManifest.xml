@@ -19,6 +19,8 @@
         <activity android:name=".Activity3" />
         <activity android:name=".Salon" />
         <activity android:name=".Camera" />
+        <activity android:name=".CreateScenar" />
+
         <activity
             android:name=".MainActivity"
             android:theme="@style/SteelSecurity">

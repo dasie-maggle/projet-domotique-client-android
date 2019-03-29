@@ -13,11 +13,15 @@ import android.widget.ImageButton;
 public class Menu extends AppCompatActivity {
     Button PM;
     Button CAM;
+    Button SD;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
+
+        SD = (Button) findViewById(R.id.button11);
 
         PM = (Button) findViewById(R.id.button12);
         CAM = (Button) findViewById(R.id.button10);
@@ -37,6 +41,15 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(Menu.this, Activity2.class);
+                startActivity(i);
+            }
+        });
+        SD.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, CreateScenar.class);
                 startActivity(i);
             }
         });
