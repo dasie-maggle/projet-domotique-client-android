@@ -40,9 +40,7 @@ public class Activity2 extends AppCompatActivity {
         confirm.setPositiveButton("Yes", new DialogInterface.OnClickListener(){
 
             public void onClick(DialogInterface dialog, int which) {
-
-                Intent i = new Intent(Activity2.this, MainActivity.class);
-                startActivity(i);
+                Activity2.this.finish();
             }
 
         });
