@@ -13,6 +13,7 @@
         <activity android:name=".Activity2"></activity>
         <activity android:name=".Activity3"></activity>
         <activity android:name=".Salon"></activity>
+        <activity android:name=".Camera"></activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/SteelSecurity">

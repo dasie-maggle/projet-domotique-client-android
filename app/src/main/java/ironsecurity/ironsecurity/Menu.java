@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 
 public class Menu extends AppCompatActivity {
     Button PM;
+    Button CAM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,17 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.menu);
 
         PM = (Button) findViewById(R.id.button12);
+        CAM = (Button) findViewById(R.id.button10);
 
+        CAM.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, Camera.class);
+                startActivity(i);
+            }
+        });
         PM.setOnClickListener(new View.OnClickListener() {
 
             @Override
