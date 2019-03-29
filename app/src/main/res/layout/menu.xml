@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -28,60 +29,68 @@
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="395dp"
-        android:layout_height="643dp"
+        android:layout_height="718dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="6dp">
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/button11"
-            android:layout_alignTop="@+id/button9"
-            android:layout_marginStart="141dp"
-            android:layout_marginTop="3dp"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="235dp"
+            android:layout_marginRight="235dp"
+            android:layout_marginBottom="148dp"
             android:text="Statistiques" />
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_marginBottom="194dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginLeft="216dp"
+            android:layout_marginBottom="266dp"
             android:text="Mozaique Caméras" />
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="50dp"
-            android:layout_marginRight="50dp"
+            android:layout_marginTop="361dp"
+            android:layout_marginEnd="237dp"
+            android:layout_marginRight="237dp"
             android:text="Pilotage Caméras" />
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="219dp"
+            android:layout_marginLeft="219dp"
+            android:layout_marginTop="249dp"
             android:text="Scénario Domotique" />
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="137dp"
+            android:layout_height="86dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginLeft="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="248dp"
             android:text="Pilotage Maison" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
