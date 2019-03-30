@@ -8,143 +8,98 @@
     android:background="@drawable/gradient"
     tools:context=".Camera">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher_foreground_square"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="479dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher_foreground_square"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="438dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher_foreground_square"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="479dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher_foreground_square"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="522dp" />
-
-    <LinearLayout
-        android:id="@+id/layoutcamera"
+    <RelativeLayout
         android:layout_width="395dp"
-        android:layout_height="328dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageButton
+            android:id="@+id/imageDroite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="207dp"
+            android:layout_marginLeft="207dp"
+            android:layout_marginTop="442dp"
+            android:rotation="270"
+            app:srcCompat="@android:drawable/arrow_down_float" />
+
+        <ImageButton
+            android:id="@+id/imageHaut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginTop="386dp"
+            android:rotation="180"
+            app:srcCompat="@android:drawable/arrow_down_float" />
 
         <VideoView
             android:id="@+id/videoView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout3"
-        android:layout_width="389dp"
-        android:layout_height="266dp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="377dp">
-
-        <ImageButton
-            android:id="@+id/droite"
-            android:layout_width="67dp"
-            android:layout_height="54dp"
+            android:layout_width="394dp"
+            android:layout_height="331dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="126dp"
-            android:layout_marginEnd="88dp"
-            android:layout_marginRight="88dp"
-            android:layout_marginBottom="85dp"
-            android:background="@null"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginTop="496dp"
+            app:srcCompat="@android:drawable/arrow_down_float" />
+
+        <ImageButton
+            android:id="@+id/imageGauche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="439dp"
             android:rotation="90"
-            app:srcCompat="@android:drawable/arrow_up_float" />
+            app:srcCompat="@android:drawable/arrow_down_float" />
 
         <ImageButton
-            android:id="@+id/gauche"
-            android:layout_width="67dp"
-            android:background="@null"
-            android:layout_height="54dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="89dp"
-            android:layout_marginLeft="89dp"
-            android:layout_marginBottom="85dp"
-            android:rotation="270"
-            app:srcCompat="@android:drawable/arrow_up_float" />
-
-        <ImageButton
-            android:id="@+id/haut"
-            android:background="@null"
-            android:layout_width="67dp"
-            android:layout_height="54dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="86dp"
-            app:srcCompat="@android:drawable/arrow_up_float" />
-
-        <ImageButton
-            android:id="@+id/bas"
-            android:layout_width="67dp"
-            android:background="@null"
-            android:layout_height="54dp"
-            android:layout_below="@+id/haut"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="41dp"
-            app:srcCompat="@android:drawable/arrow_up_float" />
-
-        <ImageButton
-            android:id="@+id/plus"
+            android:id="@+id/imageMoins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="37dp"
-            android:layout_marginLeft="37dp"
-            android:layout_marginTop="24dp"
-            android:background="@null"
-            app:srcCompat="@android:drawable/btn_plus" />
-
-        <ImageButton
-            android:id="@+id/moins"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/plus"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginEnd="38dp"
-            android:layout_marginRight="38dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="354dp"
             android:background="@null"
             app:srcCompat="@android:drawable/btn_minus" />
-    </RelativeLayout>
 
+        <ImageButton
+            android:id="@+id/imagePlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="233dp"
+            android:layout_marginLeft="233dp"
+            android:layout_marginTop="353dp"
+            android:background="@null"
+            app:srcCompat="@android:drawable/btn_plus" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
