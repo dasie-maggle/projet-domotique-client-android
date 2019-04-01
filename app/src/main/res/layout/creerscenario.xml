@@ -91,7 +91,7 @@
             android:layout_marginStart="106dp"
             android:layout_marginLeft="106dp"
             android:layout_marginTop="560dp"
-            android:text="@string/enregister_sc_nario" />
+            android:text="@string/enregister_scenario" />
 
         <TextView
             android:id="@+id/Durée"
@@ -129,7 +129,18 @@
             android:layout_marginStart="105dp"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="336dp"
-            android:text="@string/ajouter_au_sc_nario" />
+            android:text="@string/ajouter_au_scenario" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="138dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="275dp" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

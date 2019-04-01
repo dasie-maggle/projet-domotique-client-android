@@ -29,7 +29,7 @@
     <string name="cam_ra_2">Caméra 2</string>
     <string name="lumi_re_1">Lumière 1</string>
     <string name="localisation">Localisation</string>
-    <string name="enregister_sc_nario">Enregister scénario</string>
+    <string name="enregister_scenario">Enregister scénario</string>
     <string name="duree">Durée</string>
     <string name="temps">Temps</string>
     <string name="ajouter_au_scenario">Ajouter au scénario</string>
