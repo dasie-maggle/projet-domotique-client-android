@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".CreateScenar">
+
+    <RelativeLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ListView
+            android:id="@+id/action"
+            android:layout_width="106dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="32dp"
+            android:scrollbars="vertical"
+            android:text="@string/action"/>
+
+        <ListView
+            android:id="@+id/Equipements"
+            android:layout_width="106dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/equipements" />
+
+        <ListView
+            android:id="@+id/ExterieurEtages"
+            android:layout_width="106dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:text="@string/exterieur_etages" />
+
+        <ListView
+            android:id="@+id/Emplacements"
+            android:layout_width="106dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="184dp"
+            android:text="@string/emplacements" />
+
+        <TextView
+            android:id="@+id/Deroulement"
+            android:layout_width="360dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="398dp"
+            android:visibility="visible"
+            android:text="@string/deroulement_du_scenario"/>
+
+        <Button
+            android:id="@+id/Enregistre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginLeft="106dp"
+            android:layout_marginTop="560dp"
+            android:text="@string/enregister_sc_nario" />
+
+        <TextView
+            android:id="@+id/Durée"
+            android:layout_width="106dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="187dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginRight="152dp"
+            android:clickable="true"
+            android:text="@string/duree"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/Temps"
+            android:layout_width="106dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="266dp"
+            android:layout_marginLeft="266dp"
+            android:layout_marginTop="186dp"
+            android:text="@string/temps" />
+
+        <Button
+            android:id="@+id/Ajouter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="336dp"
+            android:text="@string/ajouter_au_sc_nario" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
