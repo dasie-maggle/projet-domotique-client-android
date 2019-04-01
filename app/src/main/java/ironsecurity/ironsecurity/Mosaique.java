@@ -3,11 +3,11 @@ package ironsecurity.ironsecurity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Mozaique extends AppCompatActivity {
+public class Mosaique extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mozaique);
+        setContentView(R.layout.mosaique);
     }
 }
