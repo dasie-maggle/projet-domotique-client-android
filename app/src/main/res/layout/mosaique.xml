@@ -23,8 +23,8 @@
             android:layout_height="357dp" >
 
             <ScrollView
-                android:layout_width="56dp"
-                android:layout_height="305dp"
+                android:layout_width="113dp"
+                android:layout_height="6dp"
                 android:layout_x="0dp"
                 android:layout_y="0dp"
                 tools:layout_editor_absoluteX="8dp"

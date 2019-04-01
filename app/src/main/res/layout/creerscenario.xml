@@ -119,17 +119,7 @@
             android:layout_marginTop="186dp"
             android:text="@string/temps" />
 
-        <Button
-            android:id="@+id/Ajouter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="105dp"
-            android:layout_marginLeft="105dp"
-            android:layout_marginTop="336dp"
-            android:text="@string/ajouter_au_sc_nario" />
+
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
