@@ -14,6 +14,8 @@ public class Menu extends AppCompatActivity {
     Button PM;
     Button CAM;
     Button SD;
+    Button Mos;
+
 
 
     @Override
@@ -25,6 +27,7 @@ public class Menu extends AppCompatActivity {
 
         PM = (Button) findViewById(R.id.button12);
         CAM = (Button) findViewById(R.id.button10);
+        Mos = (Button) findViewById(R.id.button9);
 
         CAM.setOnClickListener(new View.OnClickListener() {
 
@@ -50,6 +53,16 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(Menu.this, CreateScenar.class);
+                startActivity(i);
+            }
+        });
+
+        Mos.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, Mozaique.class);
                 startActivity(i);
             }
         });
