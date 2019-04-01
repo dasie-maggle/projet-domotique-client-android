@@ -129,7 +129,7 @@
             android:layout_marginStart="105dp"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="336dp"
-            android:text="@string/ajouter_au_sc_nario" />
+            android:text="@string/ajouter_au_scenario"/>
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
