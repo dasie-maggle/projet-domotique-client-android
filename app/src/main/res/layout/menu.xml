@@ -83,7 +83,7 @@
             android:layout_marginEnd="95dp"
             android:layout_marginRight="103dp"
             android:layout_marginBottom="340dp"
-            android:text="Mozaique Caméras" />
+            android:text="mosaïque caméras" />
 
         <Button
             android:id="@+id/button10"
