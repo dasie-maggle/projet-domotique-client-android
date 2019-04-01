@@ -38,5 +38,6 @@
     <string name="exterieur_etages">Extérieur/Etages</string>
     <string name="equipements">Equipements</string>
     <string name="action">Action</string>
+    <string name="logo">logo</string>
 
 </resources>

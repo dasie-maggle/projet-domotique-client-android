@@ -71,7 +71,8 @@
             android:layout_marginEnd="241dp"
             android:layout_marginRight="241dp"
             android:layout_marginBottom="233dp"
-            android:text="Statistiques" />
+            android:background="@drawable/gradientbutton"
+            android:text="Statistiques"/>
 
         <Button
             android:id="@+id/button9"
@@ -83,6 +84,7 @@
             android:layout_marginEnd="95dp"
             android:layout_marginRight="103dp"
             android:layout_marginBottom="340dp"
+            android:background="@drawable/gradientbutton"
             android:text="mosaïque caméras" />
 
         <Button
@@ -99,6 +101,7 @@
             android:layout_marginTop="292dp"
             android:layout_marginEnd="240dp"
             android:layout_marginRight="240dp"
+            android:background="@drawable/gradientbutton"
             android:text="Pilotage Caméras" />
 
         <Button
@@ -111,6 +114,7 @@
             android:layout_marginTop="186dp"
             android:layout_marginEnd="95dp"
             android:layout_marginRight="100dp"
+            android:background="@drawable/gradientbutton"
             android:text="Scénario Domotique" />
 
         <Button
@@ -123,6 +127,7 @@
             android:layout_marginStart="18dp"
             android:layout_marginLeft="18dp"
             android:layout_marginTop="187dp"
+            android:background="@drawable/gradientbutton"
             android:text="Pilotage Maison" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
