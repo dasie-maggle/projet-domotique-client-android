@@ -29,11 +29,11 @@
             android:layout_marginStart="13dp"
             android:layout_marginLeft="13dp"
             android:layout_marginTop="32dp"
-            android:scrollbars="vertical" />
+            android:scrollbars="vertical"
+            android:text="@string/action"/>
 
         <ListView
             android:id="@+id/Equipements"
-
             android:layout_width="106dp"
             android:layout_height="130dp"
             android:layout_alignParentStart="true"
@@ -42,11 +42,10 @@
             android:layout_marginStart="135dp"
             android:layout_marginLeft="135dp"
             android:layout_marginTop="32dp"
-            android:background="@color/colorPrimary"
-            android:text="equipements" />
+            android:text="@string/equipements" />
 
         <ListView
-            android:id="@+id/ExterieurInterieur"
+            android:id="@+id/ExterieurEtages"
             android:layout_width="106dp"
             android:layout_height="130dp"
             android:layout_alignParentTop="true"
@@ -55,11 +54,10 @@
             android:layout_marginTop="32dp"
             android:layout_marginEnd="23dp"
             android:layout_marginRight="23dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/exterieur_int_rieur" />
+            android:text="@string/exterieur_etages" />
 
         <ListView
-            android:id="@+id/Localisation"
+            android:id="@+id/Emplacements"
             android:layout_width="106dp"
             android:layout_height="130dp"
             android:layout_alignParentStart="true"
@@ -68,8 +66,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="184dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/localisation" />
+            android:text="@string/emplacements" />
 
         <TextView
             android:id="@+id/Deroulement"
@@ -81,8 +78,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="398dp"
-            android:text="@string/d_roulement_du_sc_nario"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:text="@string/deroulement_du_scenario"/>
 
         <Button
             android:id="@+id/Enregistre"
@@ -107,8 +104,7 @@
             android:layout_marginEnd="152dp"
             android:layout_marginRight="152dp"
             android:clickable="true"
-            android:editorExtras="true"
-            android:text="@string/dur_e"
+            android:text="@string/duree"
             android:visibility="visible" />
 
         <ListView
@@ -121,7 +117,6 @@
             android:layout_marginStart="266dp"
             android:layout_marginLeft="266dp"
             android:layout_marginTop="186dp"
-            android:background="@color/colorPrimary"
             android:text="@string/temps" />
 
         <Button

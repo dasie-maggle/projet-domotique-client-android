@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">IronSecurity</string>
     <string name="login">LOGIN</string>
     <string name="remember_me">Remember Me</string>
@@ -28,13 +28,15 @@
     <string name="cam_ra_1">Caméra 1</string>
     <string name="cam_ra_2">Caméra 2</string>
     <string name="lumi_re_1">Lumière 1</string>
-    <string name="action">Action</string>
-    <string name="exterieur_int_rieur">exterieur/intérieur</string>
     <string name="localisation">Localisation</string>
-    <string name="d_roulement_du_sc_nario">Déroulement du scénario</string>
     <string name="enregister_sc_nario">Enregister scénario</string>
-    <string name="dur_e">Durée</string>
+    <string name="duree">Durée</string>
     <string name="temps">Temps</string>
-    <string name="ajouter_au_sc_nario">Ajouter au scénario</string>
+    <string name="ajouter_au_scenario">Ajouter au scénario</string>
+    <string name="deroulement_du_scenario">Déroulement du scénario</string>
+    <string name="emplacements">Emplacements</string>
+    <string name="exterieur_etages">Extérieur/Etages</string>
+    <string name="equipements">Equipements</string>
+    <string name="action">Action</string>
 
 </resources>
