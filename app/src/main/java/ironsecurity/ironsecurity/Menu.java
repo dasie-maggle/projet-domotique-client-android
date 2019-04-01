@@ -13,7 +13,7 @@ public class Menu extends AppCompatActivity {
     Button CAM;
     Button SD;
     Button Mos;
-
+    Button Stat;
 
 
     @Override
@@ -21,11 +21,23 @@ public class Menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
 
+        Stat = (Button) findViewById(R.id.button4);
+
         SD = (Button) findViewById(R.id.button11);
 
         PM = (Button) findViewById(R.id.button12);
         CAM = (Button) findViewById(R.id.button10);
         Mos = (Button) findViewById(R.id.button9);
+
+        Stat.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, Stat.class);
+                startActivity(i);
+            }
+        });
 
         CAM.setOnClickListener(new View.OnClickListener() {
 
