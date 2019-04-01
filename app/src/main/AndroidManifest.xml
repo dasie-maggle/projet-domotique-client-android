@@ -13,7 +13,7 @@
         <activity android:name=".Exterieur" />
         <activity android:name=".Garage" />
         <activity android:name=".Stat" />
-        <activity android:name=".Mozaique" />
+        <activity android:name=".Mosaique" />
         <activity android:name=".Menu" />
         <activity android:name=".Activity2" />
         <activity android:name=".Activity3" />

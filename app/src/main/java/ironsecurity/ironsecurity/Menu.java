@@ -2,13 +2,11 @@ package ironsecurity.ironsecurity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class Menu extends AppCompatActivity {
     Button PM;
@@ -62,7 +60,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(Menu.this, Mozaique.class);
+                Intent i = new Intent(Menu.this, Mosaique.class);
                 startActivity(i);
             }
         });
