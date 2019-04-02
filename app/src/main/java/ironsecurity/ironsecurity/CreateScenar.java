@@ -1,41 +1,59 @@
 package ironsecurity.ironsecurity;
 
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 public class CreateScenar extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
-    String[] actions = {"Choisir une action", "Allumer", "Eteindre"};
-    String[] actions2= {"ok", "hey", "yo"};
+    private static String[] actions = {"-Choisir une action-","Allumer","Eteindre"};
+    private static String[] Equipements = {"-Choisir l'équipement-", "Luminaires", "Appliques", "Projecteurs", "Hublots", "Ensembles de spots"};
+    private static String[] Ext_Etages = {"-Choisir l'endroit-", "Extérieur","RDC","1er étage"};
+    private static String[] Pieces = {"-Choisir la pièce-", "Terrasse","Cuisine","Bureau", "Chambre nord ouest - Salle de bain"};
+    private static String[] Temps = {"-Selectionner une durée-", "Sec","Min","Heures","Jours"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.creerscenario);
 
-        Spinner spin = findViewById(R.id.Actions);
+        // Récupération des IDs
+        Spinner spin = (Spinner)findViewById(R.id.Actions);
         spin.setOnItemSelectedListener(this);
-        Spinner spin2 = findViewById(R.id.Ext_Etages);
-        spin2.setOnItemSelectedListener(this);
+        Spinner spin2 = (Spinner)findViewById(R.id.Equipements);
+        spin.setOnItemSelectedListener(this);
+        Spinner spin3 = (Spinner)findViewById(R.id.Ext_Etages);
+        spin3.setOnItemSelectedListener(this);
+        Spinner spin4 = (Spinner)findViewById(R.id.Pieces);
+        spin4.setOnItemSelectedListener(this);
+        Spinner spin5 = (Spinner)findViewById(R.id.Temps);
+        spin5.setOnItemSelectedListener(this);
 
-        ArrayAdapter aa= new ArrayAdapter(this, android.R.layout.simple_spinner_item, actions);
-        aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Remplissage des spinners
+        ArrayAdapter<String> aa=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, actions);
         spin.setAdapter(aa);
-
-        ArrayAdapter ab= new ArrayAdapter(this, android.R.layout.simple_spinner_item, actions2);
-        ab.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> ab=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, Equipements);
         spin2.setAdapter(ab);
+        ArrayAdapter<String> ac=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, Ext_Etages);
+        spin3.setAdapter(ac);
+        ArrayAdapter<String> ad=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, Pieces);
+        spin4.setAdapter(ad);
+        ArrayAdapter<String> ae=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, Temps);
+        spin5.setAdapter(ae);
+
+        // Définition des écouteurs
+        spin.setOnItemSelectedListener(this);
+        spin2.setOnItemSelectedListener(this);
+        spin3.setOnItemSelectedListener(this);
+        spin4.setOnItemSelectedListener(this);
+        spin5.setOnItemSelectedListener(this);
     }
 
     @Override
-    public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
-        Toast.makeText(getApplicationContext(),actions[position], Toast.LENGTH_LONG).show();
-        Toast.makeText(getApplicationContext(),actions2[position], Toast.LENGTH_LONG).show();
+    public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
+        String selected =(String) parent.getAdapter().getItem(position);
     }
 
     @Override

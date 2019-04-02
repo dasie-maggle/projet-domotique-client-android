@@ -19,30 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ListView
-            android:id="@+id/Equipements"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="135dp"
-            android:layout_marginLeft="135dp"
-            android:layout_marginTop="32dp"
-            android:text="@string/equipements" />
-
-        <ListView
-            android:id="@+id/Emplacements"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="184dp"
-            android:text="@string/emplacements" />
-
         <TextView
             android:id="@+id/Deroulement"
             android:layout_width="360dp"
@@ -66,33 +42,8 @@
             android:layout_marginStart="106dp"
             android:layout_marginLeft="106dp"
             android:layout_marginTop="560dp"
-            android:text="@string/enregister_scenario" />
-
-        <TextView
-            android:id="@+id/Durée"
-            android:layout_width="106dp"
-            android:layout_height="53dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="187dp"
-            android:layout_marginEnd="152dp"
-            android:layout_marginRight="152dp"
             android:clickable="true"
-            android:text="@string/duree"
-            android:visibility="visible" />
-
-        <ListView
-            android:id="@+id/Temps"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="266dp"
-            android:layout_marginLeft="266dp"
-            android:layout_marginTop="186dp"
-            android:text="@string/temps" />
+            android:text="@string/enregister_scenario" />
 
         <Button
             android:id="@+id/Ajouter"
@@ -104,29 +55,77 @@
             android:layout_marginStart="105dp"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="336dp"
+            android:clickable="true"
             android:text="@string/ajouter_au_scenario" />
 
         <Spinner
             android:id="@+id/Actions"
-            android:layout_width="106dp"
+            android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="34dp" />
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
 
         <Spinner
             android:id="@+id/Ext_Etages"
-            android:layout_width="106dp"
+            android:layout_width="200dp"
             android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="126dp" />
+
+        <Spinner
+            android:id="@+id/Equipements"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="71dp" />
+
+        <Spinner
+            android:id="@+id/Pieces"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="183dp" />
+
+        <Spinner
+            android:id="@+id/Temps"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="276dp"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="91dp" />
+
+        <EditText
+            android:id="@+id/Durée"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="33dp"
-            android:layout_marginEnd="25dp"
-            android:layout_marginRight="25dp" />
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Durée" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
