@@ -7,8 +7,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+import java.util.concurrent.atomic.AtomicReference;
+
 public class ChoixScenario extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
-    private static String[] actions = {"-Choisir une action-","Allumer","Eteindre"};
+    private static String[] actions = {"Choisissez un scénario","scénario 1","scénario 2"};
 
 
     @Override
@@ -17,12 +19,12 @@ public class ChoixScenario extends AppCompatActivity implements AdapterView.OnIt
         setContentView(R.layout.choixscenario);
 
         // Récupération des IDs
-        Spinner spin = (Spinner)findViewById(R.id.choix);
+        Spinner spin = findViewById(R.id.spinner);
         spin.setOnItemSelectedListener(this);
 
 
         // Remplissage des spinners
-        ArrayAdapter<String> aa=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, actions);
+        ArrayAdapter aa=new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, actions);
         spin.setAdapter(aa);
 
 
@@ -33,7 +35,7 @@ public class ChoixScenario extends AppCompatActivity implements AdapterView.OnIt
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
-        String selected =(String) parent.getAdapter().getItem(position);
+        AtomicReference<String> selected = new AtomicReference<>((String) parent.getAdapter().getItem(position));
     }
 
     @Override
