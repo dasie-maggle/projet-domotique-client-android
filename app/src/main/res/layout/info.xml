@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="395dp"
+        android:layout_width="363dp"
         android:layout_height="706dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -24,7 +24,7 @@
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
-            android:layout_height="123dp"
+            android:layout_height="174dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
@@ -43,17 +43,12 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="86dp"
+            android:layout_height="107dp"
             android:gravity="center"
             android:text="Application, Projet Dasie 2019"
             android:textAllCaps="true"
             android:textColor="@android:color/background_dark"
-            android:textSize="24sp" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -62,11 +57,6 @@
             android:text="Développement  : DIMONT Jimmy, FABLET Guillaume, NAAMANE Manon."
             android:textColor="@color/colorAccent"
             android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="54dp" />
 
         <TextView
             android:id="@+id/textView4"
@@ -88,11 +78,6 @@
             android:text="Base de données : LAUREAUX Romain, MEREDDU Simone, GARCIA, Ludovic."
             android:textColor="@color/colorAccent"
             android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="54dp" />
 
         <TextView
             android:id="@+id/textView5"
