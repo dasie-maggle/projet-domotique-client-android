@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient">
 
+    <Spinner
+        android:id="@+id/choix"
+        android:layout_width="288dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -18,35 +34,16 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginStart="96dp"
-            android:layout_marginLeft="96dp"
-            android:layout_marginEnd="88dp"
-            android:layout_marginRight="88dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
             android:contentDescription="@string/logo"
             app:srcCompat="@drawable/logoprojetalpha2"
             tools:layout_editor_absoluteX="99dp"
             tools:layout_editor_absoluteY="16dp" />
 
-        <ListView
-            android:layout_width="395dp"
-            android:layout_height="566dp"
-            android:layout_below="@+id/imageView4"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="13dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="19dp"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="157dp">
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/textview" />
-        </ListView>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
