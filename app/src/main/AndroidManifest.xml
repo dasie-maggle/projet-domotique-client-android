@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".PremierEtage"
             android:screenOrientation="portrait"></activity>
         <activity android:name=".Exterieur"
@@ -44,10 +45,28 @@
         <activity android:name=".Option"
             android:screenOrientation="portrait"/>
 
+=======
+        <activity android:name=".PremierEtage"></activity>
+        <activity android:name=".Exterieur" />
+        <activity android:name=".Garage" />
+        <activity android:name=".Stat" />
+        <activity android:name=".Mosaique" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Salon" />
+        <activity android:name=".Camera" />
+        <activity android:name=".CreateScenar" />
+        <activity android:name=".ChoixScenario"/>
+        <activity android:name=".Camera1" />
+        <activity android:name=".Camera2" />
+        <activity android:name=".Camera3" />
+        <activity android:name=".Camera4" />
+        <activity android:name=".Statistiques"/>
+>>>>>>> ae9bfff4e6b74fa7a536170d622e2217e767dc91
 
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
             android:theme="@style/SteelSecurity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
