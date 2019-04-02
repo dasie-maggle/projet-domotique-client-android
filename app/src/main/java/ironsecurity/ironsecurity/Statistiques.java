@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Stat extends AppCompatActivity {
+public class Statistiques extends AppCompatActivity {
 
     private ListView stat1;
     private ArrayAdapter aAdapter;
@@ -14,7 +14,7 @@ public class Stat extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stat);
+        setContentView(R.layout.statistiques);
 
         stat1 = (ListView) findViewById(R.id.stats);
         aAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, catégories);
