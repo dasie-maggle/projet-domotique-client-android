@@ -20,7 +20,6 @@
         <activity android:name=".Salon" />
         <activity android:name=".Camera" />
         <activity android:name=".CreateScenar" />
-        <activity android:name=".ChoixScenario"/>
         <activity android:name=".Camera1" />
         <activity android:name=".Camera2" />
         <activity android:name=".Camera3" />
