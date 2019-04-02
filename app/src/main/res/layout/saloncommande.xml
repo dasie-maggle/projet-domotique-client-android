@@ -31,7 +31,6 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="-1dp"
             android:layout_marginTop="381dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_5" />
 
         <Switch
@@ -44,7 +43,6 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="202dp"
             android:layout_marginBottom="7dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_7" />
 
         <Switch
@@ -57,7 +55,6 @@
             android:layout_marginStart="23dp"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="307dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_3" />
 
         <Switch
@@ -68,7 +65,6 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="3dp"
             android:layout_marginTop="343dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_4" />
 
         <Switch
@@ -79,7 +75,6 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="4dp"
             android:layout_marginTop="420dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_6" />
 
         <Switch
@@ -90,7 +85,6 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="-1dp"
             android:layout_marginTop="233dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_1" />
 
         <Switch
@@ -101,7 +95,6 @@
             android:layout_alignStart="@+id/switch1"
             android:layout_marginStart="0dp"
             android:layout_marginTop="11dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/lumi_re_2" />
 
         <Switch
@@ -114,7 +107,6 @@
             android:layout_marginTop="3dp"
             android:layout_marginEnd="95dp"
             android:layout_marginRight="95dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/store_1" />
 
         <Switch
@@ -125,7 +117,6 @@
             android:layout_alignTop="@+id/switch1"
             android:layout_marginStart="-1dp"
             android:layout_marginTop="47dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/store_2" />
 
         <Switch
@@ -136,7 +127,6 @@
             android:layout_alignTop="@+id/switch1"
             android:layout_marginStart="8dp"
             android:layout_marginTop="93dp"
-            android:background="@drawable/gradientbutton"
             android:text="@string/clim" />
 
     </RelativeLayout>
