@@ -24,6 +24,7 @@
         <activity android:name=".Camera2" />
         <activity android:name=".Camera3" />
         <activity android:name=".Camera4" />
+        <activity android:name=".Option" />
 
         <activity
             android:name=".MainActivity"
