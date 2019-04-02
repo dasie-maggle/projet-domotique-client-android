@@ -7,6 +7,9 @@
     android:background="@drawable/gradient"
     tools:context=".ChoixScenar">
 
+
+
+
     <Spinner
         android:id="@+id/choix"
         android:layout_width="288dp"
