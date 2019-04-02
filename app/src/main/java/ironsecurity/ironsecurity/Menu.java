@@ -66,7 +66,7 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(Menu.this, CreateScenar.class);
+                Intent i = new Intent(Menu.this, ChoixScenar.class);
                 startActivity(i);
             }
         });
