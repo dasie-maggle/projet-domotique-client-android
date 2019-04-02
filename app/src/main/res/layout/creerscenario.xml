@@ -20,19 +20,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ListView
-            android:id="@+id/action"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="13dp"
-            android:layout_marginLeft="13dp"
-            android:layout_marginTop="32dp"
-            android:scrollbars="vertical"
-            android:text="@string/action"/>
-
-        <ListView
             android:id="@+id/Equipements"
             android:layout_width="106dp"
             android:layout_height="130dp"
@@ -43,18 +30,6 @@
             android:layout_marginLeft="135dp"
             android:layout_marginTop="32dp"
             android:text="@string/equipements" />
-
-        <ListView
-            android:id="@+id/ExterieurEtages"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="23dp"
-            android:layout_marginRight="23dp"
-            android:text="@string/exterieur_etages" />
 
         <ListView
             android:id="@+id/Emplacements"
@@ -91,7 +66,7 @@
             android:layout_marginStart="106dp"
             android:layout_marginLeft="106dp"
             android:layout_marginTop="560dp"
-            android:text="@string/enregister_sc_nario" />
+            android:text="@string/enregister_scenario" />
 
         <TextView
             android:id="@+id/Durée"
@@ -119,7 +94,39 @@
             android:layout_marginTop="186dp"
             android:text="@string/temps" />
 
+        <Button
+            android:id="@+id/Ajouter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="336dp"
+            android:text="@string/ajouter_au_scenario" />
 
+        <Spinner
+            android:id="@+id/Actions"
+            android:layout_width="106dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="34dp" />
+
+        <Spinner
+            android:id="@+id/Ext_Etages"
+            android:layout_width="106dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp" />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
