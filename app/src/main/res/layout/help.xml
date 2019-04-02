@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="271dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/logoprojetalpha2" />
+
+    <RelativeLayout
+        android:layout_width="386dp"
+        android:layout_height="532dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="7dp"
+            android:lineSpacingExtra="-1dp"
+            android:text="Mentions légales  Le site est édité par la société SteelSecuriy, SARL (société à responsabilité limitée) au  capital social de 4.000 euros (RCS Nanterre B 753 594 027),domiciliée au 1 Place Paul Verlaine 92100 Boulogne-Billancourt.
+
+Numéro SIRET : 75359402717. Directeur de publication et webmaster : Jean-Louis Dell’Oro. Nous contacter à cette adresse : lesapplicationsandroid@gmail.com société anonyme (CH-660.0.059.996-1)  domiciliée au 26, Avenue de la Praille 1227 Carouge / Genève Suisse,au capital social de 102.000 euros.  Le présent Site Web et l’ensemble de son contenu, y compris textes,images fixes ou animées, bases de données, programmes, etc.  est protégé par le droit d’auteur.
+
+Pour en savoir plus à ce propos, veuillez lire nos conditions générales d’utilisation (CGU).
+
+Si vous souhaitez exercer ce droit, il vous suffit de nous écrire au 1 Place Paul Verlaine 92100 Boulogne-Billancourt ou  de nous contacter par mail :
+
+steelsecurity@gmail.com"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

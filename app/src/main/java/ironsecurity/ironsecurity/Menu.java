@@ -2,6 +2,7 @@ package ironsecurity.ironsecurity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ public class Menu extends AppCompatActivity {
     Button Mos;
     Button Stat;
     ImageButton OP;
+    ImageButton PO;
 
 
     @Override
@@ -32,6 +34,7 @@ public class Menu extends AppCompatActivity {
         CAM = (Button) findViewById(R.id.button10);
         Mos = (Button) findViewById(R.id.button9);
         OP = (ImageButton) findViewById(R.id.Option);
+        PO = (ImageButton) findViewById(R.id.Support);
 
         Stat.setOnClickListener(new View.OnClickListener() {
 
@@ -87,6 +90,16 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(Menu.this, Option.class);
+                startActivity(i);
+            }
+        });
+
+        PO.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, Propos.class);
                 startActivity(i);
             }
         });
