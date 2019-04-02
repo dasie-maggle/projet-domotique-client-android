@@ -20,14 +20,14 @@ public class ChoixScenario extends AppCompatActivity implements AdapterView.OnIt
         Spinner spin = findViewById(R.id.choix);
         spin.setOnItemSelectedListener(this);
 
-        ArrayAdapter adapter= new ArrayAdapter(this, android.R.layout.simple_spinner_item, action);
+        ArrayAdapter<String> adapter= new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, action);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         spin.setAdapter(adapter);
     }
 
     @Override
-    public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id) {
+    public void onItemSelected(AdapterView<?>arg0, View arg1, int position, long id) {
         Toast.makeText(getApplicationContext(),action[position], Toast.LENGTH_LONG).show();
     }
 
