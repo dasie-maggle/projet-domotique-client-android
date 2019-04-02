@@ -16,7 +16,7 @@ public class Stat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stat);
 
-        stat1 = (ListView) findViewById(R.id.stats);
+        stat1 = findViewById(R.id.stats);
         aAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, catégories);
         stat1.setAdapter(aAdapter);
     }
