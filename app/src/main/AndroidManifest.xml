@@ -43,6 +43,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".Option"
             android:screenOrientation="portrait"/>
+        <activity android:name=".Propos"
+            android:screenOrientation="portrait"/>
 
 
         <activity
