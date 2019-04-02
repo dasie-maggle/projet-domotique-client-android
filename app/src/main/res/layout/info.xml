@@ -62,6 +62,7 @@
             android:layout_height="69dp"
             android:text="Développement  : DIMONT Jimmy, FABLET Guillaume, NAAMANE Manon."
             android:textColor="@color/colorAccent"
+            android:layout_marginLeft="10dp"
             android:textSize="18sp" />
 
         <TextView
@@ -69,6 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="69dp"
             android:text="Design/Conception : LOBJEOIS Bastien, GARNOT Anthony."
+            android:layout_marginLeft="10dp"
             android:textColor="@color/colorAccent"
             android:textSize="18sp" />
 
@@ -77,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="87dp"
             android:text="IHM/Android : DIAS Julien, VANOYE Romain, SALVIA Nans"
+            android:layout_marginLeft="10dp"
             android:textColor="@color/colorAccent"
             android:textSize="18sp" />
 
@@ -85,6 +88,7 @@
             android:layout_width="match_parent"
             android:layout_height="69dp"
             android:text="Base de données : LAUREAUX Romain, MEREDDU Simone, GARCIA, Ludovic."
+            android:layout_marginLeft="10dp"
             android:textColor="@color/colorAccent"
             android:textSize="18sp" />
 
