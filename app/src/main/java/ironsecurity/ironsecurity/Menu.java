@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class Menu extends AppCompatActivity {
     Button PM;
@@ -14,6 +16,7 @@ public class Menu extends AppCompatActivity {
     Button SD;
     Button Mos;
     Button Stat;
+    ImageButton OP;
 
 
     @Override
@@ -28,6 +31,7 @@ public class Menu extends AppCompatActivity {
         PM = (Button) findViewById(R.id.button12);
         CAM = (Button) findViewById(R.id.button10);
         Mos = (Button) findViewById(R.id.button9);
+        OP = (ImageButton) findViewById(R.id.Option);
 
         Stat.setOnClickListener(new View.OnClickListener() {
 
@@ -73,6 +77,16 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(Menu.this, Mosaique.class);
+                startActivity(i);
+            }
+        });
+
+        OP.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, Option.class);
                 startActivity(i);
             }
         });
