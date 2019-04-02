@@ -57,7 +57,7 @@ public class CreateScenar extends AppCompatActivity implements AdapterView.OnIte
     }
 
     @Override
-    public void onNothingSelected(AdapterView<?>arg0) {
+    public void onNothingSelected(AdapterView<?>arg0){
 
     }
 }
