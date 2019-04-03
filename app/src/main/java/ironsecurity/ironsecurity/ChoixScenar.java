@@ -1,5 +1,6 @@
 package ironsecurity.ironsecurity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuInflater;
@@ -39,6 +40,8 @@ public class ChoixScenar extends AppCompatActivity implements PopupMenu.OnMenuIt
     public boolean onMenuItemClick(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_add:
+                Intent i = new Intent(this, CreateScenar.class);
+                startActivity(i);
                 return true;
             case R.id.action_delete:
 
