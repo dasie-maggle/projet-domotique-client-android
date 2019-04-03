@@ -21,8 +21,10 @@
 
         <TextView
             android:id="@+id/Deroulement"
+            android:background="@drawable/border"
             android:layout_width="360dp"
             android:layout_height="140dp"
+            android:padding="8dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
@@ -34,6 +36,7 @@
 
         <Button
             android:id="@+id/Enregistre"
+            android:backgroundTint="@android:color/darker_gray"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -47,6 +50,7 @@
 
         <Button
             android:id="@+id/Ajouter"
+            android:backgroundTint="@android:color/darker_gray"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -60,6 +64,7 @@
 
         <Spinner
             android:id="@+id/Actions"
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
@@ -71,6 +76,7 @@
 
         <Spinner
             android:id="@+id/Ext_Etages"
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
@@ -82,6 +88,7 @@
 
         <Spinner
             android:id="@+id/Equipements"
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
@@ -93,6 +100,7 @@
 
         <Spinner
             android:id="@+id/Pieces"
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
@@ -104,6 +112,7 @@
 
         <Spinner
             android:id="@+id/Temps"
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:layout_alignParentStart="true"
@@ -115,6 +124,7 @@
 
         <EditText
             android:id="@+id/Durée"
+            android:backgroundTint="@color/colorAccent"
             android:layout_width="104dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
