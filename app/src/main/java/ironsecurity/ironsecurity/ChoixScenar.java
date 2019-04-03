@@ -7,11 +7,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.PopupMenu;
 import android.widget.Spinner;
 import android.widget.Toast;
 import android.view.Menu;
 
-public class ChoixScenar extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class ChoixScenar extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener, AdapterView.OnItemSelectedListener {
 
     Spinner spinner;
     @Override
@@ -28,17 +29,16 @@ public class ChoixScenar extends AppCompatActivity implements AdapterView.OnItem
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_menu, menu);
-        return true;
+    public void showPopup(View v) {
+        PopupMenu popup = new PopupMenu(this, v);
+        popup.setOnMenuItemClickListener(this);
+        popup.inflate(R.menu.menu_menu);
+        popup.show();
     }
 
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onMenuItemClick(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_add:
-
                 return true;
             case R.id.action_delete:
 
