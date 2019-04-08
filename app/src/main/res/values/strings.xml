@@ -43,6 +43,14 @@
     <string name="testt">TODO</string>
     <string name="server_name">Server name</string>
     <string name="enter_ip">Enter IP</string>
+    <string name="statistiques">Statistiques</string>
+    <string name="mosa_que_cam_ras">mosaïque caméras</string>
+    <string name="pilotage_cam_ras">Pilotage Caméras</string>
+    <string name="sc_nario_domotique">Scénario Domotique</string>
+    <string name="pilotage_maison">Pilotage Maison</string>
+    <string name="support">support</string>
+    <string name="option_serveur">option serveur</string>
+    <string name="option">option</string>
     <string-array name="ChoixScenar">
         <item>Choix du Scénario</item>
         <item>Scenario1</item>
