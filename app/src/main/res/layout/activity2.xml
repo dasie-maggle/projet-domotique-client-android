@@ -24,8 +24,8 @@
             android:layout_height="126dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="104dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="112dp"
             android:contentDescription="TODO"
             android:scaleType="centerInside"
             app:srcCompat="@drawable/logoprojetalpha2" />
