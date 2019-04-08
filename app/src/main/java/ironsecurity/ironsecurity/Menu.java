@@ -17,6 +17,7 @@ public class Menu extends AppCompatActivity {
     Button SD;
     Button Mos;
     Button Stat;
+    Button Serve;
     ImageButton OP;
     ImageButton PO;
 
@@ -33,6 +34,7 @@ public class Menu extends AppCompatActivity {
         PM = (Button) findViewById(R.id.button12);
         CAM = (Button) findViewById(R.id.button10);
         Mos = (Button) findViewById(R.id.button9);
+        Serve = (Button) findViewById(R.id.optionserve);
         OP = (ImageButton) findViewById(R.id.Option);
         PO = (ImageButton) findViewById(R.id.Support);
 
@@ -90,6 +92,16 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent i = new Intent(Menu.this, Option.class);
+                startActivity(i);
+            }
+        });
+
+        Serve.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(Menu.this, Serve.class);
                 startActivity(i);
             }
         });

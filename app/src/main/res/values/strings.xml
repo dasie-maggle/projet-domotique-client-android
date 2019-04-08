@@ -41,6 +41,8 @@
     <string name="logo">logo</string>
     <string name="textview">TextView</string>
     <string name="testt">TODO</string>
+    <string name="server_name">Server name</string>
+    <string name="enter_ip">Enter IP</string>
     <string-array name="ChoixScenar">
         <item>Choix du Scénario</item>
         <item>Scenario1</item>
