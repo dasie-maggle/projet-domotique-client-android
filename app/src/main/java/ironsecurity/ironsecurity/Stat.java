@@ -9,7 +9,9 @@ public class Stat extends AppCompatActivity {
 
     private ListView stat1;
     private ArrayAdapter aAdapter;
-    private String[] catégories = {"Appareils en fonction", "Consommation électrique", "Durée de fonctionnement", "Nombre de pannes"};
+    private String[] catégories = {"Appareils en fonction", "Consommation électrique générale", "Consommation électrique par équipements",
+            "Durée de fonctionnement des équipements", "Nombres de pannes générale", "Nombres de pannes par équipements", "Durée depuis la dernière panne",
+            "Durée depuis la dernière panne par équipement", "Température ambiante par pièces", "Temps de présence dans les pièces"};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
