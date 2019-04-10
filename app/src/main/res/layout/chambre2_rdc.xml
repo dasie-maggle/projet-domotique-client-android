@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/imgRdcChambre2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rdc_chambre2" />
+
+    <Button
+        android:id="@+id/rdcChambre2Volet1"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/triangle"
+        android:tag="16"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <Button
+        android:id="@+id/rdcChambre2Volet2"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/triangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/rdcChambre2Volet3"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/triangle"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <Button
+        android:id="@+id/rdcChambre2Lampe1"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cerclecare"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <Button
+        android:id="@+id/rdcChambre2Lampe2"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cercle"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <Button
+        android:id="@+id/rdcChambre2Lampe3"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cercle"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.834" />
+
+    <Button
+        android:id="@+id/rdcChambre2Lampe4"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cercle"
+        app:layout_constraintBottom_toBottomOf="@+id/imgRdcChambre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgRdcChambre2"
+        app:layout_constraintVertical_bias="0.461" />
+</android.support.constraint.ConstraintLayout>
