@@ -1,3 +1,5 @@
+package ironsecurity.ironsecurity;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +12,7 @@ import java.net.URL;
 
 import ironsecurity.ironsecurity.R;
 
-class MainActivity extends AppCompatActivity {
+class Camera1 extends AppCompatActivity {
 
     Button btnUp;
     Button btnDown;
