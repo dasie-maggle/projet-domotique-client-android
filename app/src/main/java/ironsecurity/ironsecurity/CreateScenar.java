@@ -11,7 +11,9 @@ public class CreateScenar extends AppCompatActivity implements AdapterView.OnIte
     private static String[] actions = {"-Choisir une action-","Allumer","Eteindre"};
     private static String[] Equipements = {"-Choisir l'équipement-", "Luminaires", "Appliques", "Projecteurs", "Hublots", "Ensembles de spots"};
     private static String[] Ext_Etages = {"-Choisir l'endroit-", "Extérieur","RDC","1er étage"};
-    private static String[] Pieces = {"-Choisir la pièce-", "Terrasse","Cuisine","Bureau", "Chambre nord ouest - Salle de bain"};
+    private static String[] Pieces = {"-Choisir la pièce-", "Bibliothéque", "Chambre invités", "Chambre invités - Salle de bain", "Chambre invités - Dressing",
+            "Suite parentale", "Suite parentale - Salle de bain", "Suite parentale - Dressing", "Cuisine","Vestibule", "Escalier central", "Escalier est",
+            "Garages nord","Garages ouest", "Hall nord", "Salle à manger", "Salon", "WC", "Placard"};
     private static String[] Temps = {"-Selectionner une durée-", "Sec","Min","Heures","Jours"};
 
     @Override
