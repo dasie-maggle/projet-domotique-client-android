@@ -116,6 +116,15 @@ public class MainActivity extends AppCompatActivity implements Runnable{
         String password=strPassword.getText().toString();
         final DatabaseHelper dbHelper = new DatabaseHelper(this);
         dbHelper.addUser(new User("Admin", "admin"));
+        dbHelper.addUser(new User("User", "user"));
+        dbHelper.addUser(new User("Secu", "secu"));
+        String iduser = "User";
+        String passuser = "user";
+        String Admin = "Admin";
+        String passAdmin = "admin";
+        String idSecu = "Secu";
+        String passSecu = "secu";
+
 
 
         if(savepass.isChecked())
@@ -131,8 +140,18 @@ public class MainActivity extends AppCompatActivity implements Runnable{
         User user = dbHelper.queryUser(username, password);
         if(user != null)
         {
-            Intent i = new Intent(this, Menu.class); // here the nextpage to be loaded is specified
-            startActivity(i);
+            if(username.equalsIgnoreCase(Admin) && password.equalsIgnoreCase(passAdmin)) {
+                Intent i = new Intent(this, Menu.class); // here the nextpage to be loaded is specified
+                startActivity(i);
+            }
+            else if(username.equalsIgnoreCase(iduser) && password.equalsIgnoreCase(passuser))
+            {
+
+            }
+            else if(username.equalsIgnoreCase(idSecu) && password.equalsIgnoreCase(passSecu))
+            {
+                
+            }
         }
         else
         {

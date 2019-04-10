@@ -40,7 +40,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="90dp"
         android:background="@drawable/gradientbutton"
-        android:text="Statistiques"
+        android:text="@string/statistiques"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -54,7 +54,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/gradientbutton"
-        android:text="mosaïque caméras"
+        android:text="@string/mosa_que_cam_ras"
         app:layout_constraintStart_toEndOf="@+id/button10"
         app:layout_constraintTop_toBottomOf="@+id/button11" />
 
@@ -66,7 +66,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/gradientbutton"
-        android:text="Pilotage Caméras"
+        android:text="@string/pilotage_cam_ras"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button12" />
 
@@ -79,7 +79,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/gradientbutton"
-        android:text="Scénario Domotique"
+        android:text="@string/sc_nario_domotique"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button12"
         app:layout_constraintTop_toTopOf="parent"
@@ -94,7 +94,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/gradientbutton"
-        android:text="Pilotage Maison"
+        android:text="@string/pilotage_maison"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -110,7 +110,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginRight="8dp"
         android:background="@null"
-        android:contentDescription="support"
+        android:contentDescription="@string/support"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,7 +126,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/gradientbutton"
-        android:text="option serveur"
+        android:text="@string/option_serveur"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/button9"
@@ -149,6 +149,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011"
-        app:srcCompat="@drawable/ic_action_name" />
+        app:srcCompat="@drawable/ic_action_name"
+        android:contentDescription="@string/option" />
 
 </android.support.constraint.ConstraintLayout>
